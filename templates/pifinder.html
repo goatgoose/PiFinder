@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pi Finder</title>
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<br>
+
+<div class="input-group col-6">
+    <input id="search-input" type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+    <div class="input-group-append">
+        <button id="search-button" class="btn btn-primary" type="button">Search ID</button>
+    </div>
+</div>
+
+<br>
+<br>
+
+<table id="ip-table" class="table">
+    <tr>
+        <th>id</th>
+        <th>IP address</th>
+        <th>MAC address</th>
+        <th>timestamp</th>
+    </tr>
+</table>
+
+<script src="/static/jquery-3.3.1.js"></script>
+<script src="/static/pifinder.js"></script>
+
+</body>
+</html>
